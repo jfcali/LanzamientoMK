@@ -20,6 +20,10 @@
 
 @media (max-width: 768px) {
 
+.sidebar-toggle-box .fa-bars {
+    color: #11a8dd;
+}
+
     .header {
         position: absolute;
     }

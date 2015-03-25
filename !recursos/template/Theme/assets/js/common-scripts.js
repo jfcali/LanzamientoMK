@@ -67,7 +67,7 @@ var Script = function () {
 
     $('.fa-bars').click(function () {
             var wSize = $(window).width();
-            
+
         if ($('#sidebar > ul').is(":visible") === true) {
 
             if (wSize > 768) {
