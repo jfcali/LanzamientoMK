@@ -8,7 +8,7 @@ Premium: http://www.gridgum.com
 
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300italic,700);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,700,700italic);
 
 /* BASIC THEME CONFIGURATION */
 body {
@@ -419,6 +419,15 @@ ul.sidebar-menu li a.active i {
     z-index: 1002;
 }
 
+.logo-container{
+    display: block;
+    width: 250px;
+    height: 231px;
+    background-color: #11a8dd;
+    font-size: 380%;
+    margin-left: 75px;
+}
+
 .blue-bg {
     background: #11a8dd;
     border-bottom: 1px solid #c9aa5f;
@@ -435,10 +444,31 @@ ul.sidebar-menu li a.active i {
 }
 
 a.logo {
-    font-size: 20px;
+    font-size: 100%;
     color: #ffffff;
     float: left;
-    margin-top: 15px;
+    margin-top: 50px;
+    line-height: 110%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    border-bottom: 1px #fff solid;
+    width: 80%;
+    margin-left: 25px;
+    padding-bottom: 8px;
+}
+
+.logo-container p {
+    font-size: 38%;
+    color: #ffffff;
+    float: left;
+    line-height: 110%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 12px;
 }
 
 a.logo b {

@@ -20,6 +20,34 @@
 
 @media (max-width: 768px) {
 
+.logo-container{
+    display: inline;
+    width: auto;
+    height: auto;
+    background-color: #11a8dd;
+    font-size: 100%;
+}
+
+a.logo{
+    color: #ffffff;
+    float: left;
+    margin-top: 0px;
+    font-weight: 100;
+    font-style: italic;
+    border-bottom: none;
+    width: auto;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    font-size: 230%;
+    margin-top: 10px;
+}
+
+.logo-container p{
+    display: none;
+}
+.notify-row{
+    display: none;
+}
 .sidebar-toggle-box .fa-bars {
     color: #11a8dd;
 }
