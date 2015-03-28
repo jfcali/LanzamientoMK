@@ -344,8 +344,7 @@ ul.sidebar-menu li ul.sub li.active a {
 ul.sidebar-menu li{
     /*line-height: 20px !important;*/
     margin-bottom: 5px;
-    margin-left:10px;
-    margin-right:10px;
+
 }
 
 ul.sidebar-menu li.sub-menu{
@@ -405,6 +404,7 @@ ul.sidebar-menu li a.active i {
 /* MAIN CONTENT CONFIGURATION */
 #main-content {
     width: 83%;
+    height: 100%;
 }
 
 .header, .footer {
@@ -880,6 +880,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 /* MAIN CHART CONFIGURATION */
 .main-chart {
 	padding-top: 20px;
+    height: 100%;
 }
 
 .mleft {
