@@ -54,6 +54,7 @@ a.logo{
 
     .header {
         position: absolute;
+        right: 0;
     }
 
     /*sidebar*/
