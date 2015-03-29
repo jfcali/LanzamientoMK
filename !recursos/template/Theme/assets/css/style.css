@@ -238,7 +238,6 @@ ul.top-menu > li > .logout {
 #sidebar {
     width: 17%;
     height: 100%;
-
     position: fixed;
 
     right:0;
@@ -295,6 +294,7 @@ ul.sidebar-menu , ul.sidebar-menu li ul.sub{
 
 ul.sidebar-menu {
     margin-top: 75px;
+    margin-left: -15px;
 }
 
 #sidebar > ul > li > ul.sub {

@@ -71,32 +71,33 @@ var Script = function () {
         if ($('#sidebar > ul').is(":visible") === true) {
 
             if (wSize > 768) {
-                $('#main-content').css({
+
+                $('#main-content').animate({
                     'width': '96%'
-                });
-                $('#sidebar').css({
+                },500);
+                $('#sidebar').animate({
                     'width': '4%'
-                });
+                },500);
             }
-            $('#sidebar > ul').hide();
+            $('#sidebar > ul').hide(500);
             $("#container").addClass("sidebar-closed");
         } else {
 
             if (wSize > 768) {
-                $('#main-content').css({
-                    'width': '83%'
-                });
-                $('#sidebar').css({
+                $('#sidebar').animate({
                     'width': '17%'
-                });
+                },500);
+                $('#main-content').animate({
+                    'width': '83%'
+                },500);
             }
-            $('#sidebar > ul').show();
+            $('#sidebar > ul').show(500);
             $("#container").removeClass("sidebar-closed");
         }
     });
 
 // custom scrollbar
-    $("#sidebar").niceScroll({styler:"fb",cursorcolor:"#4ECDC4", cursorwidth: '3', cursorborderradius: '10px', background: '#404040', spacebarenabled:false, cursorborder: ''});
+   // $("#sidebar").niceScroll({styler:"fb",cursorcolor:"#4ECDC4", cursorwidth: '3', cursorborderradius: '10px', background: '#404040', spacebarenabled:false, cursorborder: ''});
 
     $("html").niceScroll({styler:"fb",cursorcolor:"#4ECDC4", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});
 
