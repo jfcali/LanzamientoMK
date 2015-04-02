@@ -146,4 +146,7 @@ var Script = function () {
                 $.fn.fullpage.moveSectionDown();
             });
 
+//fondos video
+
+    
 }();
