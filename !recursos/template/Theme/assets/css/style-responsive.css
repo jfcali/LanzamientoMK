@@ -2,7 +2,7 @@
 
 
 @media (max-width: 1440px) {
-
+/*generales*/
 .logo-container{
     width: 187px;
     height: 172px;
@@ -29,6 +29,26 @@ a.logo{
     font-size: 130%;
 }
 
+/*responsive menu?*/
+ul.sidebar-menu li a i {
+ font-size: 15px;
+ padding-right: 14px;
+}
+ul.sidebar-menu li a{
+    font-size: 13px;
+  padding: 15px 0 0 10px;
+}
+ul.sidebar-menu li a span{
+    padding-bottom: 16px;
+}
+.sidebar-toggle-box {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+ul.sidebar-menu {
+  margin-top: 37px;
+  margin-left: -18px;
+}
 
 /*index videos*/
 #ini_wrap {
@@ -247,8 +267,71 @@ a.logo{
     font-weight: 100;
     color: #525252;
 }
+
+/*principal*/
+.stuff-wrapper h1 {
+    font-size: 280%;
+}.stuff-wrapper p {
+    font-size: 100%;
 }
+tr{
+    font-size: 10px;
+}
+.stuff2 {
+  margin-top: 4%;
+}
+.stuff3{
+    margin-top: 3%;
+}
+.stuff9{
+    margin-top: 4%;
+}
+}
+
+@media (max-width: 1280px) {
+/*responsive menu?*/
+ul.sidebar-menu li a i {
+ font-size: 11px;
+ padding-right: 14px;
+}
+ul.sidebar-menu li a{
+    font-size: 12px;
+  padding: 12px 0 0 10px;
+}
+ul.sidebar-menu li a span{
+    padding-bottom: 12px;
+}
+.sidebar-toggle-box {
+  margin-right: 12px;
+  margin-top: 12px;
+}
+ul.sidebar-menu {
+  margin-top: 37px;
+  margin-left: -16px;
+}
+}
+
 @media (max-width: 1024px) {
+/*responsive menu?*/
+ul.sidebar-menu li a i {
+ font-size: 9px;
+ padding-right: 8px;
+}
+ul.sidebar-menu li a{
+    font-size: 9px;
+  padding: 8px 0 0 10px;
+}
+ul.sidebar-menu li a span{
+    padding-bottom: 9px;
+}
+.sidebar-toggle-box {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+ul.sidebar-menu {
+  margin-top: 37px;
+  margin-left: -14px;
+}
 
 .logo-container{
     width: 133px;
@@ -396,6 +479,7 @@ a.logo{
     font-weight: 100;
     color: #525252;
 }
+
 }
 @media (min-width: 980px) {
     /*-----*/

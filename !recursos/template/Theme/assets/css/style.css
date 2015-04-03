@@ -307,7 +307,7 @@ float: left;
 }
 
 /*medicamentos generales*/
-.stuff4{
+.stuff9{
     width: 80% !important;
 }
 .productos-general{
@@ -326,6 +326,11 @@ width: 25%;
     max-width: 80% !important;
     margin-left: 0 !important;
     cursor: auto !important;
+}
+
+/*tablas*/
+tr{
+    font-size: 13px;
 }
 
 /* Bootstrap Modifications */
@@ -572,8 +577,8 @@ ul.sidebar-menu , ul.sidebar-menu li ul.sub{
 }
 
 ul.sidebar-menu {
-    margin-top: 75px;
-    margin-left: -15px;
+    margin-top: 50px;
+    margin-left: -18px;
 }
 
 #sidebar > ul > li > ul.sub {
@@ -626,7 +631,7 @@ ul.sidebar-menu li ul.sub li.active a {
 
 ul.sidebar-menu li{
     /*line-height: 20px !important;*/
-    margin-bottom: 5px;
+   /* margin-bottom: 5px;*/
 
 }
 
@@ -636,14 +641,17 @@ ul.sidebar-menu li.sub-menu{
 
 ul.sidebar-menu li a span{
     display: inline-block;
+  padding-bottom: 22px;
+  width: 70%;
+  //border-bottom: 1px solid #0955a5;
 }
 
 ul.sidebar-menu li a{
-    color: #0955a5;
+    color: #525252;
     text-decoration: none;
     display: block;
-    padding: 15px 0 15px 10px;
-    font-size: 14px;
+    padding: 20px 0 0 10px;
+    font-size: 17px;
     outline: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -652,8 +660,8 @@ ul.sidebar-menu li a{
     transition: all 0.3s ease;
 }
 
-ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #68dff0;
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover {
+    background: #0955a5;
     color: #fff;
     display: block;
 
@@ -666,11 +674,12 @@ ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:fo
 
 
 ul.sidebar-menu li a i {
-    font-size: 11px;
-    padding-right: 6px;
+    color: #0955a5;
+    font-size: 20px;
+    padding-right: 22px;
 }
 
-ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
+ul.sidebar-menu li a:hover i{
     color: #fff;
 }
 
@@ -785,6 +794,11 @@ a.logo span {
 .stuff-wrapper{
     height: 100%;
     width: 85%;
+    float: right;
+}
+.slide .stuff-wrapper{
+    height: 100%;
+    width: 100%;
     float: right;
 }
 
